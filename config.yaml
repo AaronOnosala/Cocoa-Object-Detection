@@ -1,11 +1,13 @@
+# Root directory of the dataset
+path: /Users/aarononosala/Documents/Makerere/cocoa_new/data
 
-path: /Users/aarononosala/Documents/Makerere/cocoa_new/data # dataset root dir
-train: images/train  # train images (relative to 'path')
-val: images/validation  # val images (relative to 'path')
+# Relative paths to the training and validation image directories
+train: images/train  # Directory containing training images (relative to 'path')
+val: images/validation  # Directory containing validation images (relative to 'path')
 
-# Classes
+# Classes and their corresponding numerical IDs
 names:
-  0: Spoit
-  1: Immature
-  2: Mature_Unripe
-  3: Ripped
+  0: Spoilt  # Class ID 0 corresponds to 'Spoilt'
+  1: Immature  # Class ID 1 corresponds to 'Immature'
+  2: Mature_Unripe  # Class ID 2 corresponds to 'Mature_Unripe'
+  3: Ripped  # Class ID 3 corresponds to 'Ripped'
