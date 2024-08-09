@@ -52,6 +52,7 @@ The challenge was to convert this data into a format suitable for training a YOL
     
  2. __Results Visualization:__ Detected objects were highlighted in the output video to visually assess the model's performance.
 
+## YOLO v9 Network Structures
 
 
 ## Challenges
