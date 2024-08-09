@@ -1,0 +1,11 @@
+
+path: /Users/aarononosala/Documents/Makerere/cocoa_new/data # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/validation  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Spoit
+  1: Immature
+  2: Mature_Unripe
+  3: Ripped
