@@ -35,6 +35,7 @@ The challenge was to convert this data into a format suitable for training a YOL
 ## Data Preparation
 
  1. __Conversion:__ The original dataset annotations were in PASCAL VOC XML format. To train a YOLO model, we needed to convert these annotations into the YOLO format. This required writing a script to parse the XML files and convert bounding box coordinates and class labels into the YOLO format, which consists of normalized coordinates and class IDs.
+    
  2. __Dataset Organization:__ The dataset was split into training, validation, and test subsets. The conversion script handled XML files in the train and validation folders, outputting YOLO-formatted text files.
     
 ## Model Building and Training:
@@ -46,6 +47,7 @@ The challenge was to convert this data into a format suitable for training a YOL
 ## Detection and Evaluation:
 
  1. __Inference:__ The trained model was applied to both images and videos to detect cocoa pods at various stages. Results were evaluated to ensure the model's accuracy and reliability in real-world scenarios.
+    
  2. __Results Visualization:__ Detected objects were highlighted in the output video to visually assess the model's performance.
 
 
