@@ -7,7 +7,8 @@ The Cocoa Object Detection project aimed to create a robust model for identifyin
 3. __Ripped__ - Images with ripe mature cocoa pods.
 4. __Spoilt__ - Images with Spoilt cocoa pods.
 ![cocoa](https://github.com/user-attachments/assets/1f112077-0d8a-4637-8ab9-400ec9bcc4c0)
-from images. The original dataset was in PASCAL VOC XML format, the dataset contains objects in cocoa trees under 4 classes Spoilt, Immature, Mature_Unripe and Ripped. It has been split into 3 subsets.
+
+from images. The original dataset provided by [Makerere Artificial Intelligence Lab](https://air.ug) was in PASCAL VOC XML format, the dataset contains objects in cocoa trees under 4 classes Spoilt, Immature, Mature_Unripe and Ripped. It has been split into 3 subsets.
 
   * Train with 4550 images.
   * Validation with 1262 images.
@@ -26,5 +27,27 @@ Image shows a sample PASCAL VOC annoation in XML format
 <img width="921" alt="cocoa_xml_label" src="https://github.com/user-attachments/assets/f7688bf7-b498-4b1f-9b7b-6a8663670b79">
 
 Image shows a sample of the labels in a CSV file for Cocoa
+<img width="657" alt="cocoa_csv_label" src="https://github.com/user-attachments/assets/b84f22fe-920e-4141-ae4e-b7c1616742a3">
+
+The challenge was to convert this data into a format suitable for training a YOLO (You Only Look Once) object detection model.
+
+## Approach
+## Data Preparation
+
+ 1. __Conversion:__ The original dataset annotations were in PASCAL VOC XML format. To train a YOLO model, we needed to convert these annotations into the YOLO format. This required writing a script to parse the XML files and convert bounding box coordinates and class labels into the YOLO format, which consists of normalized coordinates and class IDs.
+ 2. __Dataset Organization:__ The dataset was split into training, validation, and test subsets. The conversion script handled XML files in the train and validation folders, outputting YOLO-formatted text files.
+    
+## Model Building and Training:
+
+ 1. __Model Selection:__ YOLOv8 was selected for its efficiency and effectiveness in object detection tasks. The model configuration was adjusted to match the dataset's specifics.
+   
+ 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process.
+    
+## Detection and Evaluation:
+
+ 1. __Inference:__ The trained model was applied to both images and videos to detect cocoa pods at various stages. Results were evaluated to ensure the model's accuracy and reliability in real-world scenarios.
+ 2. __Results Visualization:__ Detected objects were highlighted in the output video to visually assess the model's performance.
+
+
 
 
