@@ -21,6 +21,10 @@ The dataset has 2 types of labels. The first type is PASCAL VOC XML files for ev
  + __Actual Label__ - The class label of the objects of interest in the image.
  + __xmin, ymin, xmax, ymax__ - The bounding box cordinates of the objects in the image.
  + __xmin_norm, ymin_norm, xmax_norm, ymax_norm__ - The normalized bounding box coordinates of the objects in the image.
+   
 Image shows a sample PASCAL VOC annoation in XML format
+<img width="921" alt="cocoa_xml_label" src="https://github.com/user-attachments/assets/f7688bf7-b498-4b1f-9b7b-6a8663670b79">
+
+Image shows a sample of the labels in a CSV file for Cocoa
 
 
