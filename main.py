@@ -1,13 +1,14 @@
-#importing libraries
-import torch
-from ultralytics import YOLO
+# Importing necessary libraries
+import torch  # PyTorch library for tensor computations
+from ultralytics import YOLO  # YOLO library for object detection models
 
 if __name__ == '__main__':
+    # Check if the Metal Performance Shaders (MPS) backend is available for PyTorch
     if torch.backends.mps.is_built() and torch.backends.mps.is_available():
-        mps = torch.device("mps")
-        # Load a model
-        model = YOLO("yolov8n.yaml")  # build a new model from scratch
+        mps = torch.device("mps")  # Set the device to MPS (Apple's GPU acceleration)
+        
+        # Load a YOLO model configuration
+        model = YOLO("yolov8n.yaml")  # Build a new YOLO model from scratch using the specified configuration file
 
-        # Use the model
-        results = model.train(data="config.yaml", epochs=100)  # train the model
-
+        # Train the model using the provided configuration file and number of epochs
+        results = model.train(data="config.yaml", epochs=100)  # Train the model for 100 epochs
