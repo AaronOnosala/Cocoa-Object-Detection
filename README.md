@@ -52,6 +52,8 @@ The challenge was to convert this data into a format suitable for training a YOL
     
  2. __Results Visualization:__ Detected objects were highlighted in the output video to visually assess the model's performance.
 
+
+
 ## Challenges
 ## Data Conversion:
 The primary challenge was converting the dataset from PASCAL VOC XML format to YOLO format. This required accurately translating bounding box coordinates and class labels while maintaining data integrity. I faced challenges in converting data formats, but i successfully processed and formatted over 4,000 XML files into YOLO-compatible text files.
