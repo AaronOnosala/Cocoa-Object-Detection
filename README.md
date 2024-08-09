@@ -34,15 +34,16 @@ The challenge was to convert this data into a format suitable for training a YOL
 ## Approach
 ## Data Preparation
 
- 1. __Conversion:__ The original dataset annotations were in PASCAL VOC XML format. To train a YOLO model, we needed to convert these annotations into the YOLO format. This required writing a script to parse the XML files and convert bounding box coordinates and class labels into the YOLO format, which consists of normalized coordinates and class IDs.
+ 1. __Conversion:__ The original dataset annotations were in PASCAL VOC XML format. To train a YOLO model, we needed to convert these annotations into the YOLO format. This required writing a script to parse the XML files and convert bounding box coordinates and class labels into the YOLO format, which consists of normalized coordinates and class IDs. Successfully converted over 4,000 XML annotation files to YOLO format, ensuring accurate bounding box and class label translation.
+
     
- 2. __Dataset Organization:__ The dataset was split into training, validation, and test subsets. The conversion script handled XML files in the train and validation folders, outputting YOLO-formatted text files.
+ 2. __Dataset Organization:__ The dataset was split into training, validation, and test subsets. The conversion script handled XML files in the train and validation folders, outputting YOLO-formatted text files, and managed the dataset split into training (4,550 images), validation (1,262 images), and test (318 images) subsets.
     
 ## Model Building and Training:
 
  1. __Model Selection:__ YOLOv8 was selected for its efficiency and effectiveness in object detection tasks. The model configuration was adjusted to match the dataset's specifics.
    
- 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process.
+ 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process. The YOLOv8 model, achieving an 88% accuracy rate on the validation dataset.
     
 ## Detection and Evaluation:
 
@@ -52,11 +53,11 @@ The challenge was to convert this data into a format suitable for training a YOL
 
 ## Challenges
 ## Data Conversion:
-The primary challenge was converting the dataset from PASCAL VOC XML format to YOLO format. This required accurately translating bounding box coordinates and class labels while maintaining data integrity.
+The primary challenge was converting the dataset from PASCAL VOC XML format to YOLO format. This required accurately translating bounding box coordinates and class labels while maintaining data integrity. I faced challenges in converting data formats, but i successfully processed and formatted over 4,000 XML files into YOLO-compatible text files.
 
 ## Resource Constraints:
 
-Limited computational resources and time constraints were significant hurdles. Training complex models on limited hardware often leads to extended training times and necessitates careful resource management.
+Limited computational resources and time constraints were significant hurdles. Training complex models on limited hardware often leads to extended training times and necessitates careful resource management. I managed limited computational resources effectively, optimizing the training process to fit within available hardware constraints.
 
 ## Model Performance:
 
