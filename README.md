@@ -1,4 +1,7 @@
 # Cocoa-Object-Detection
+
+<img width="392" alt="Screenshot 2024-08-12 at 11 28 05" src="https://github.com/user-attachments/assets/03e911e9-1bee-4a29-a2fc-3168df487c22">  <img width="373" alt="Screenshot 2024-08-12 at 11 29 06" src="https://github.com/user-attachments/assets/96adf8ff-e206-4d07-9b30-f9971a68d0d2">
+
 ## Background
 The Cocoa Object Detection project aimed to create a robust model for identifying cocoa fruit at various stages 
 
