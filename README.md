@@ -1,4 +1,4 @@
-# Cocoa-Object-Detection
+# Cocoa-Object-Detection Project
 
 * Collaboration: [Makerere Artificial Intelligence Lab](https://air.ug), [Lacuna Fund](https://lacunafund.org/)
   
