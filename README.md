@@ -38,6 +38,9 @@ Image shows a sample of the labels in a CSV file for Cocoa
 The challenge was to convert this data into a format suitable for training a YOLO (You Only Look Once) object detection model.
 
 ## Approach
+### AI Framework Used In This Project
+<img width="741" alt="Screenshot 2024-08-12 at 11 46 01" src="https://github.com/user-attachments/assets/47820292-eb6f-44ce-b30d-65314b952538">
+
 ## Data Preparation
 
  1. __Conversion:__ The original dataset annotations were in PASCAL VOC XML format. To train a YOLO model, we needed to convert these annotations into the YOLO format. This required writing a script to parse the XML files and convert bounding box coordinates and class labels into the YOLO format, which consists of normalized coordinates and class IDs. Successfully converted over 4,000 XML annotation files to YOLO format, ensuring accurate bounding box and class label translation.
