@@ -50,9 +50,9 @@ The challenge was to convert this data into a format suitable for training a YOL
     
 ## Model Building and Training:
 
- 1. __Model Selection:__ YOLOv8 was selected for its efficiency and effectiveness in object detection tasks. The model configuration was adjusted to match the dataset's specifics.
+ 1. __Model Selection:__ YOLOv10 was selected for its efficiency and effectiveness in object detection tasks. The model configuration was adjusted to match the dataset's specifics.
    
- 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process. The YOLOv8 model, achieving an 88% accuracy rate on the validation dataset.
+ 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process. The YOLOv10 model, achieving an 88,6% accuracy rate on the validation dataset.
     
 ## Detection and Evaluation:
 
@@ -60,7 +60,7 @@ The challenge was to convert this data into a format suitable for training a YOL
     
  2. __Results Visualization:__ Detected objects were highlighted in the output video to visually assess the model's performance.
 
-## YOLO v9 Network Structures
+## YOLO v10 Network Structures
 <img width="731" alt="Screenshot 2024-08-09 at 11 09 01" src="https://github.com/user-attachments/assets/635184ea-4384-4114-a195-efb02ae44118">
 
 ## Challenges
@@ -73,12 +73,12 @@ Limited computational resources and time constraints were significant hurdles. T
 
 ## Model Performance:
 
-Despite the challenges, the final model achieved an 88% accuracy rate. This was a notable accomplishment considering the constraints faced during the project.
+Despite the challenges, the final model achieved an 88,6% accuracy rate. This was a notable accomplishment considering the constraints faced during the project.
 
 ## Outcomes
- + Accuracy Improvement: The YOLOv8 model achieved an 88% accuracy rate in detecting various stages of cocoa fruit, demonstrating a significant improvement in detection capabilities.
+ + Accuracy Improvement: The YOLOv10 model achieved an 88,6% accuracy rate in detecting various stages of cocoa fruit, demonstrating a significant improvement in detection capabilities.
    
- + Successful Conversion: Efficiently converted over 4,000 XML annotations to YOLO format, enabling seamless application of the YOLOv8 model.
+ + Successful Conversion: Efficiently converted over 4,000 XML annotations to YOLO format, enabling seamless application of the YOLOv10 model.
    
  + Resource Optimization: Managed to train and deploy the model within stringent resource and time limitations, showcasing efficient resource utilization.
    
