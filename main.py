@@ -1,6 +1,7 @@
 # Importing necessary libraries
 import torch  # PyTorch library for tensor computations
 from ultralytics import YOLOv10  # YOLO library for object detection models
+import os
 
 if __name__ == '__main__':
     # Check if the Metal Performance Shaders (MPS) backend is available for PyTorch
