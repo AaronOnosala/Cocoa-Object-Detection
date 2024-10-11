@@ -1,6 +1,6 @@
 # Importing necessary libraries
 import os  # Library for interacting with the operating system
-from ultralytics import YOLO  # YOLO library for object detection models
+from ultralytics import YOLOv10 as YOLO # YOLO library for object detection models
 import cv2  # OpenCV library for computer vision tasks
 
 # Define the directory containing the video files
