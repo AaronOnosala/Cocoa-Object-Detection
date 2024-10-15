@@ -52,7 +52,7 @@ The challenge was to convert this data into a format suitable for training a YOL
 
  1. __Model Selection:__ YOLOv10 was selected for its efficiency and effectiveness in object detection tasks. The model configuration was adjusted to match the dataset's specifics.
    
- 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process. The YOLOv10 model, achieving an 88,6% accuracy rate on the validation dataset.
+ 2. __Training:__ The model was trained on the converted dataset using the YOLO framework, with careful monitoring of performance metrics throughout the training process. The YOLOv10 model, achieving an 99,8% accuracy rate on the validation dataset.
     
 ## Detection and Evaluation:
 
@@ -73,10 +73,10 @@ Limited computational resources and time constraints were significant hurdles. T
 
 ## Model Performance:
 
-Despite the challenges, the final model achieved an 88,6% accuracy rate. This was a notable accomplishment considering the constraints faced during the project.
+Despite the challenges, the final model achieved an 99,8% accuracy rate. This was a notable accomplishment considering the constraints faced during the project.
 
 ## Outcomes
- + Accuracy Improvement: The YOLOv10 model achieved an 88,6% accuracy rate in detecting various stages of cocoa fruit, demonstrating a significant improvement in detection capabilities.
+ + Accuracy Improvement: The YOLOv10 model achieved an 99,8% accuracy rate in detecting various stages of cocoa fruit, demonstrating a significant improvement in detection capabilities.
    
  + Successful Conversion: Efficiently converted over 4,000 XML annotations to YOLO format, enabling seamless application of the YOLOv10 model.
    
